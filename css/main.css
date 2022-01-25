@@ -897,6 +897,11 @@ button {
     font-size: 18px;
     width: 400px;
 }
+@media (max-width:767px) {
+    .pricing .container .text p {
+        width: 315px;
+    }
+}
 .pricing .container .text  a {
     text-decoration: none;
     background-color: var(--main-color);
