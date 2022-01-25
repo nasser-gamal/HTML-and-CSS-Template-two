@@ -141,7 +141,7 @@ header .container::after {
     content: "";
     width: calc(100% - 30px);
     height: 1px;
-    background-color: #a70202;
+    background-color: #a2a2a2;
     position: absolute;
     bottom: 0;
 }
