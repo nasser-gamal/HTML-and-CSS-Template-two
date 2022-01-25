@@ -899,6 +899,7 @@ button {
 }
 @media (max-width:767px) {
     .pricing .container .text p {
+        font-size: 14px;
         width: 315px;
     }
 }
