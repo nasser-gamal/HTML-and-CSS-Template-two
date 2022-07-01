@@ -3,7 +3,6 @@
     --main-color :#19c8fa;
     --transparent-colro: #0f748fb3;
     --main-padding: 100px;
-    --p-color:#777;
 }
 /* End Varibles  */
 /* Start Components  */
@@ -39,7 +38,6 @@
     background-color: white;
 }
 .main-heading + p {
-    color: #777;
     width: 550px;
     max-width: 100%;
     line-height: 2;
@@ -225,7 +223,7 @@ header .container nav .form i {
     position: relative;
     height: 100vh;
     background-color: black;
-    background-image: url(../images/baackground.jpg);
+    background-image: url(../images/baackground.webp);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -339,7 +337,6 @@ header .container nav .form i {
     padding: 20px;
 }
 .services .container .services-content .srv h3 {
-    color: var(--main-color);
     margin-bottom: 25px;
 }
 .services .container .services-content .srv p{
@@ -355,7 +352,7 @@ header .container nav .form i {
     padding-top: var(--main-padding);
     padding-bottom: var(--main-padding);
     position: relative;
-    background-image: url(../images/design-features.jpg);
+    background-image: url(../images/design-features.webp);
     background-size: cover;
     overflow: hidden;
 }
@@ -463,6 +460,9 @@ header .container nav .form i {
     }
 }
 .content-pic .img img {
+    width: 700px;
+    height: 400px;
+    object-fit: contain;
     max-width: 100%;
     -moz-transition: 0.3s;
     -webkit-transition: 0.3s;
@@ -572,7 +572,7 @@ button {
 .about .about-content {
     padding-top: var(--main-padding);
     padding-bottom: var(--main-padding);
-    background-image: url(../images/stats.png);
+    background-image: url(../images/stats.webp);
     position: relative  ;
     margin-top: -120px;
     max-width: 100%;
@@ -771,7 +771,7 @@ button {
     padding-top: 140px;
     padding-bottom: 140px;
     margin-top: 60px;
-    background-image: url(../images/quote.jpg);
+    background-image: url(../images/quote.webp);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -916,7 +916,7 @@ button {
     padding-top: var(--main-padding);
     padding-bottom: var(--main-padding);
     margin-top: var(--main-padding);
-    background-image: url(../images/subscribe.jpg);
+    background-image: url(../images/subscribe.webp);
     position: relative;
 }
 .subscribe .container {
@@ -1081,7 +1081,7 @@ button {
     margin-top: 50px;
     padding-top: 250px;
     padding-bottom: var(--main-padding);
-    background-image: url(../images/subscribe.jpg);
+    background-image: url(../images/subscribe.webp);
     position: relative;
 }
 .footer::before {
